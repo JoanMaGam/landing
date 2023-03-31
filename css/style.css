@@ -46,9 +46,67 @@ header nav li {
     margin-left: 10px;
 }
 
+<<<<<<< HEAD
 header a {
     color: black;
     text-decoration: none;
 }
 
 /* Final header */
+=======
+/* Final header */
+
+/* Inicio hero */
+
+.hero {
+    background-color: #585858;
+    background-image: url(../img/fondo.jpeg);
+
+    /* vh es viewport height: coge el porcentage de lo que se ve en la pantalla en ese momento */
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* mezcla un background de color con un bg de imagen y puedo editarla */
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+.hero>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero h4 {
+    margin: 30px 0 15px 0;
+    font-size: 110%;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hero h1 {
+    text-shadow: 1px 1px 1px black;
+    font-size: 320%;
+    font-weight: bold;
+}
+
+.hero>div>div button:first-child {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.hero>div>div button:last-child {
+    background-color: transparent;
+    border: 1px solid lightskyblue;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+/* Final hero */
+>>>>>>> feature/hero
