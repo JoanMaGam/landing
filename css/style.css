@@ -61,7 +61,14 @@ header nav li {
     background-position: center center;
     /* mezcla un background de color con un bg de imagen y puedo editarla */
     background-blend-mode: multiply;
+    position: relative;
+}
 
+.hero>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
