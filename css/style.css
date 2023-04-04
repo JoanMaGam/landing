@@ -132,17 +132,20 @@ header a {
 article {
     background-color: white;
     line-height: 1.2;
+    color: grey;
 
 }
 
 figcaption {
     padding-bottom: 5px;
+    font-size: 110%;
+    font-weight: bold;
 }
 
 span {
     color: hsl(200, 99%, 50%);
     font-weight: bold;
-    font-size: 110%;
+
 }
 
 
