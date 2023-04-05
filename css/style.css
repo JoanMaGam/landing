@@ -159,3 +159,14 @@ main article h3 span {
 
 
 /* Final Section */
+
+/* Inicio Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Final Footer */
