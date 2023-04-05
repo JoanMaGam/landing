@@ -107,3 +107,44 @@ header a {
 }
 
 /* Final hero */
+
+/* Inicio Section */
+
+main {
+    background-color: whitesmoke;
+
+}
+
+main section {
+    width: 1004px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    border-top: 4px solid gold;
+    /* al ponerlo relativo subimos una capa de eje */
+    position: relative;
+    display: flex;
+    /* para determinar el ancho de los elementos */
+    flex-wrap: wrap;
+
+}
+
+main section article {
+    width: 33.333%;
+}
+
+/* para adecuar imagen al contenedor */
+/* las imagenes deben adaptarse al 100% del elemento que lo contiene, así nunca sobrepasan su contenedor */
+img {
+    width: 100%;
+    height: auto;
+    /* para que no deforme las imagenes */
+    display: block;
+}
+
+
+
+
+
+
+/* Final Section */
