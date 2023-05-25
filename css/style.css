@@ -110,7 +110,7 @@ header a {
 
 /* Final hero */
 
-/* Inicio seccion 2 intento2 */
+/* Inicio seccion 2*/
 
 .container2 {
     position: absolute;
@@ -152,4 +152,15 @@ span {
 
 
 
-/* Fin seccion 2 intento2 */
+/* Fin seccion 2*/
+
+/* Inicio Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Final Footer */
