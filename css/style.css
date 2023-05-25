@@ -96,6 +96,7 @@ header a {
     border: 1px solid black;
     padding: 7px 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .hero>div>div button:last-child {
@@ -104,6 +105,7 @@ header a {
     color: white;
     padding: 7px 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* Final hero */
