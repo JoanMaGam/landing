@@ -1,5 +1,5 @@
 # landing
-Landing estatica creada con HTML y CSS puro.
+Landing estática creada con HTML y CSS puro.
 
 Deploy: https://joanmagam.github.io/landing/
 
